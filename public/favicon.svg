@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#1a1a2e"/>
+  <!-- Leaf -->
+  <path d="M18 44 C18 44, 20 18, 44 14 C44 14, 42 40, 18 44 Z" fill="#2E7D32" opacity="0.9"/>
+  <path d="M18 44 C24 34, 32 26, 44 14" stroke="#1a1a2e" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M24 38 C26 34, 28 30, 34 24" stroke="#1a1a2e" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M22 40 C22 36, 24 34, 28 30" stroke="#1a1a2e" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <!-- Water droplet -->
+  <path d="M42 30 C42 30, 50 40, 50 45 C50 49.4, 46.4 53, 42 53 C37.6 53, 34 49.4, 34 45 C34 40, 42 30, 42 30 Z" fill="#4FC3F7"/>
+  <ellipse cx="40" cy="43" rx="2.5" ry="3.5" fill="white" opacity="0.3" transform="rotate(-15 40 43)"/>
+</svg>
