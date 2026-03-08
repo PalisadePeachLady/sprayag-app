@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Oswald:wght@400;500;600;700&display=swap');
+
+:root {
+  --green-accent: #2E7D32;
+  --green-hover: #1B5E20;
+  --bg-dark: #1a1a2e;
+  --bg-card: #242442;
+  --bg-input: #2a2a4a;
+  --border-color: #3a3a5a;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: var(--bg-dark);
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+input, select, textarea {
+  font-family: 'Lato', sans-serif;
+}
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--bg-dark); }
+::-webkit-scrollbar-thumb { background: #555; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #777; }
