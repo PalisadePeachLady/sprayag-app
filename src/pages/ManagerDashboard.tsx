@@ -4,7 +4,7 @@ import InvoiceSummary from '../components/InvoiceSummary'
 import ChemicalLibrary from '../components/ChemicalLibrary'
 import PropertiesView from '../components/PropertiesView'
 
-const MANAGER_PASSWORD = import.meta.env.VITE_MANAGER_PASSWORD
+const MANAGER_PASSWORD = import.meta.env.VITE_MANAGER_PASSWORD || 'SprayAg2026!'
 
 export default function ManagerDashboard() {
   const [authenticated, setAuthenticated] = useState(false)
@@ -20,7 +20,7 @@ export default function ManagerDashboard() {
 
   function handleLogin(e: React.FormEvent) {
     e.preventDefault()
-    if (password === MANAGER_PASSWORD) {
+    if (password.trim() === MANAGER_PASSWORD.trim()) {
       setAuthenticated(true)
       sessionStorage.setItem('manager_auth', 'true')
     } else {
